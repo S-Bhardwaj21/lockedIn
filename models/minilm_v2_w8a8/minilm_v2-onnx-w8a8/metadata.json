@@ -1,0 +1,44 @@
+{
+    "model_id": "minilm_v2",
+    "model_name": "MiniLM-v2",
+    "runtime": "onnx",
+    "precision": "w8a8",
+    "tool_versions": {
+        "qairt": "2.50.0.260828221209",
+        "onnx_runtime": "1.27.1"
+    },
+    "model_files": {
+        "minilm_v2.onnx": {
+            "inputs": {
+                "input_ids": {
+                    "shape": [
+                        1,
+                        128
+                    ],
+                    "dtype": "int32"
+                },
+                "attention_mask": {
+                    "shape": [
+                        1,
+                        128
+                    ],
+                    "dtype": "int32"
+                }
+            },
+            "outputs": {
+                "embeddings": {
+                    "shape": [
+                        1,
+                        384
+                    ],
+                    "dtype": "uint8",
+                    "quantization_parameters": {
+                        "scale": 0.0017485282151028514,
+                        "zero_point": 134
+                    }
+                }
+            }
+        }
+    },
+    "use_case": "Text Generation"
+}

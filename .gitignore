@@ -1,0 +1,9 @@
+models/all-MiniLM-L6-v2/model.safetensors
+models/all-MiniLM-L6-v2-onnx/model.onnx
+models/all-MiniLM-L6-v2-onnx/model_static128.onnx
+models/minilm_v2_w8a8/minilm_v2-onnx-w8a8/minilm_v2.data
+android-worker/app/src/main/assets/minilm_v2.data
+models/minilm_qaihub_dlc/minilm_v2-qnn_dlc-float/minilm_v2.dlc
+models/minilm_qaihub_float/minilm_v2-onnx-float/minilm_v2.data
+qnncheck/extracted/
+qnncheck/qnn-runtime.zip

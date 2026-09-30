@@ -1,0 +1,32 @@
+{
+  "timestamp": 1790611027824,
+  "activeFile": "c:\\Users\\Shreya\\lockedin\\src\\workspace_recovery.py",
+  "line": 267,
+  "column": 21,
+  "tabs": [
+    {
+      "label": "test.py",
+      "path": "c:\\Users\\Shreya\\test.py"
+    },
+    {
+      "label": "focus_monitor.py",
+      "path": "c:\\Users\\Shreya\\lockedin\\src\\focus_monitor.py"
+    },
+    {
+      "label": "workspace_recovery.py",
+      "path": "c:\\Users\\Shreya\\lockedin\\src\\workspace_recovery.py"
+    },
+    {
+      "label": "focus_state_machine.py",
+      "path": "c:\\Users\\Shreya\\lockedin\\src\\behavior\\focus_state_machine.py"
+    },
+    {
+      "label": "test_behavior.py",
+      "path": "c:\\Users\\Shreya\\lockedin\\tests\\test_behavior.py"
+    },
+    {
+      "label": "alignment.py",
+      "path": "c:\\Users\\Shreya\\lockedin\\src\\semantic\\alignment.py"
+    }
+  ]
+}

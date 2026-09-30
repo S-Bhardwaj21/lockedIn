@@ -1,0 +1,22 @@
+{
+  "name": "lockedin-context-bridge",
+  "displayName": "LOCKEDIN Context Bridge",
+  "description": "Local VS Code context bridge for LOCKEDIN",
+  "version": "0.0.1",
+  "publisher": "lockedin",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "lockedin.inspectContext",
+        "title": "LOCKEDIN: Inspect Context"
+      }
+    ]
+  }
+}

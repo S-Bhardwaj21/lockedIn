@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run LOCKEDIN Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "extensionDevelopmentPath": "${workspaceFolder}"
+    }
+  ]
+}
